@@ -1,0 +1,16 @@
+notifications:
+  email:
+    HOLD_LIST_CREATED:
+      recipients:
+        - hold-ops@example.com
+        - support@example.com
+      subject: "Hold list created"
+      template-path: "hold-list-created"
+      enabled: true
+
+    HOLD_LIST_REMOVED:
+      recipients:
+        - hold-ops@example.com
+      subject: "Hold list removed"
+      template-path: "hold-list-removed"
+      enabled: true
