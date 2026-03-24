@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p>A hold list was removed.</p>
+<ul>
+    <li>Name: <span th:text="${holdListName}">name</span></li>
+    <li>Removed by: <span th:text="${removedBy}">actor</span></li>
+    <li>Reason: <span th:text="${reason}">reason</span></li>
+</ul>
+</body>
+</html>
