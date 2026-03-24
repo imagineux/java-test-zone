@@ -1,0 +1,15 @@
+notifications:
+  definitions:
+    HOLD_LIST_CREATED:
+      recipients:
+        - ops@example.com
+        - support@example.com
+      templatePath: templates/notifications/hold-list-created
+      subject: "Hold list created"
+      enabled: true
+    HOLD_LIST_REMOVED:
+      recipients:
+        - ops@example.com
+      templatePath: templates/notifications/hold-list-removed
+      subject: "Hold list removed"
+      # enabled omitted intentionally (defaults to true)
